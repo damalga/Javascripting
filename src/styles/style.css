@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #2d2d2d;
+  color: #d2d2d2;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+section.main{
+  width: 1080px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+h1{
+  font-size: 2em;
+}
+
+.resultado{
+  margin-bottom: 1rem;
+}
