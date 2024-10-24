@@ -1,4 +1,4 @@
-const numero = 7;
+const numero = 6;
 
 function factorial(n) {
     // Caso base: si n es 1, el factorial de 1 es 1

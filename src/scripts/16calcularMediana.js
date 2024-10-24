@@ -2,7 +2,6 @@ const numeros = [1,9,2,8,3,7,6,4,20,15,4,6,3,7,2,8,1,9];
 
 function calcularMediana() {
     const numerosOrdenados = numeros.sort((a, b) => a - b);
-    console.log(numerosOrdenados);
     if (numerosOrdenados.length % 2 !== 0){
         // Si el array tiene un número impar de elementos, tomamos el valor central
         const mid = Math.floor(numerosOrdenados.length / 2);

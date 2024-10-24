@@ -1,4 +1,4 @@
-const numeros = [1,2,3,4,5,2,6,7,3,8,1,2,3,4,5,6,7,8,9,7,5,3,1];
+const numeros = [1,2,3,4,5,2,6,7,3,8,1,2,3,4,5];
 
 function encontrarDuplicados(arr) {
     let contador = {}
