@@ -1,4 +1,4 @@
-﻿## ECMAScript 6 y más allá 🚀
+﻿## ES6 y más allá 🚀
 
 Bienvenido al repositorio Javascripting!.
 
@@ -17,7 +17,7 @@ Si quieres mejorar tus habilidades en JS, aquí encontrarás desafíos que van d
   - Variables, tipos de datos y operaciones básicas.
   - Funciones, arrays y objetos.
   - Manipulación del DOM.
-  - Características de **ES6**: Funciones flecha, destructuración, operadores spread/rest, promesas, async/await, etc.
+  - Características del gran punto de inflexión **ES6** (2015) hasta la actualidad (2024): Funciones flecha, destructuración, operadores spread/rest, promesas, async/await, etc.
   - Temas avanzados: Closures, scopes, prototypes, y mucho más.
   - Hasta desafíos de nivel que te harán pensar duro.
 
