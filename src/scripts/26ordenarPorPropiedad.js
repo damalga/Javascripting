@@ -7,10 +7,12 @@ const frutas = [
   { nombre: "Mango", precio: 4 }
 ];
 
+// Para ordenar por precio
 function ordenarPorPrecio(array, propiedad) {
   return array.sort((a, b) => a[propiedad] - b[propiedad]);
 }
 
+// Para ordenar alfabeticamente
 function ordenarPorPropiedad(array, propiedad) {
   return array.sort((a, b) => {
     // -1 si a[propiedad] debe ir antes que b[propiedad]
