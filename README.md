@@ -1,15 +1,13 @@
 ﻿## ES6 y más allá 🚀
 
-Bienvenido al repositorio Javascripting!.
+Bienvenido al repositorio Javascripting!. Este contiene ejercicios diseñados para llevarte desde los fundamentos de **JavaScript** hasta sus profundidades.
 
-Este contiene ejercicios diseñados para llevarte desde los fundamentos del **JavaScript clásico** hasta las profundidades de **ECMAScript 6** (y más allá).
-
-Si quieres mejorar tus habilidades en JS, aquí encontrarás desafíos que van desde lo más sencillo hasta los que pondrán a prueba tu mente.
+Si quieres mejorar tus habilidades en **JS**, aquí encontrarás desafíos que van desde lo más sencillo hasta los que pondrán a prueba tu mente.
 
 ## Objetivos del Proyecto 🎯
 - Comenzar con retos simples y fáciles de entender.
-- Aumentar la dificultad progresivamente, para que desarrolles tus habilidades en JavaScript paso a paso.
-- Explorar la evolución del lenguaje*, desde lo más clásico hasta las últimas características.
+- Aumentar la dificultad progresivamente, para que desarrolles tus habilidades con el lenguaje poco a poco.
+- Explorar la evolución del lenguaje, desde lo más básico hasta las últimas actualizaciones.
 - Desafiarte con ejercicios que pondrán a prueba tu capacidad de resolución.
 
 ## ¿Qué encontrarás? 🔍
@@ -19,10 +17,10 @@ Si quieres mejorar tus habilidades en JS, aquí encontrarás desafíos que van d
   - Manipulación del DOM.
   - Características del gran punto de inflexión **ES6** (2015) hasta la actualidad (2024): Funciones flecha, destructuración, operadores spread/rest, promesas, async/await, etc.
   - Temas avanzados: Closures, scopes, prototypes, y mucho más.
-  - Hasta desafíos de nivel que te harán pensar duro.
+  - Hasta desafíos que te harán pensar duro.
 
 ## ¿Por qué este proyecto? 💡
-Este proyecto busca ser tan **divertido** como **educativo**. Si quieres mejorar tus habilidades en JavaScript enfrentándote a desafíos que van desde lo más básico hasta lo más complejo, ¡este es tu lugar! Piensa en esto como un **campo de entrenamiento y entretenimiento** para convertirte en un maestro del JS.
+Este proyecto busca ser tan **divertido** como **educativo**. Si quieres mejorar tus habilidades enfrentándote a desafíos que van desde lo más básico hasta lo más complejo, ¡este es tu lugar! Piensa en esto como un **campo de entrenamiento y entretenimiento** para convertirte en un maestro del JS.
 
 ## ¿Cómo usarlo? 🛠️
 1. Clona el repositorio: git clone https://github.com/damalga/Javascripting.git
