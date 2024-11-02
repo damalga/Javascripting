@@ -1,7 +1,8 @@
-const texto = "Hola, hola mundo. ¡Este es un mundo increíble! Un mundo lleno de sorpresas.";
+const texto =
+  "Hola, hola mundo. ¡Este es un mundo increíble! Un mundo esférico lleno de sorpresas.";
 
-function generarHistograma(txt){
-    const txtNormalizado = txt
+function generarHistograma(txt) {
+  const txtNormalizado = txt
     // Convierte todo a minúsculas para uniformidad.
     .toLowerCase()
     // Descompone caracteres acentuados.
@@ -10,24 +11,23 @@ function generarHistograma(txt){
     .replace(/[\u0300-\u036f]/g, "")
     // Remueve los signos de puntuación.
     .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()¡¿?"']/g, "");
-    
-    
-    const palabras = txtNormalizado.split(' ');
-    console.log(palabras);
+  const palabras = txtNormalizado.split(" ");
+  return palabras.reduce((acu, palabra) => {
+    if (!acu[palabra]) {
+      // Si no está, inicializa el conteo en 1
+      acu[palabra] = 1;
+    } else {
+      // Si la palabra ya está en el acumulador, incrementa el conteo
+      acu[palabra]++;
+    }
+    return acu;
+  }, {});
 }
 
 const resultado = generarHistograma(texto);
-/*
-Resultado:
-{
-  hola: 2,
-  mundo: 3,
-  este: 1,
-  es: 1,
-  un: 2,
-  increíble: 1,
-  lleno: 1,
-  de: 1,
-  sorpresas: 1
-}
-*/
+
+document.querySelector("#histograma").textContent = JSON.stringify(
+  resultado,
+  null,
+  2,
+);
