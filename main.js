@@ -31,3 +31,4 @@ import "./src/scripts/26ordenarPorPropiedad.js";
 import "./src/scripts/27arrayObjetosObjetoAgrupado.js";
 import "./src/scripts/28histogramaPalabras.js";
 import "./src/scripts/29secuenciaLargaRepetidos.js";
+import "./src/scripts/30ordenadoRotado.js";
