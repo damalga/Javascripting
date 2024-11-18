@@ -7,7 +7,7 @@ const preposiciones = ["sobre", "bajo", "junto a", "entre", "hacia"];
 function generarPoema() {
   // Selecciona una palabra aleatoria
   function palabraAleatoria(arr) {
-    // Aquí seleccionarás y devolverás un elemento del array `arr`.
+    // Aquí seleccionarás y devolverás un elemento del array
     return arr[Math.floor(Math.random() * arr.length)];
   }
 

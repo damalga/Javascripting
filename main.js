@@ -36,3 +36,4 @@ import "./src/scripts/31cifradoCesar.js";
 import "./src/scripts/32ordenarPalabrasVocales.js";
 import "./src/scripts/33sumaElementosMatriz.js";
 import "./src/scripts/34generadorPoemas.js";
+import "./src/scripts/35generadorHistorias.js";
