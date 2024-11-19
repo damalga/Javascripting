@@ -14,9 +14,9 @@ section.main{
   padding: 1rem;
 }
 
-h1{
-  font-size: 2em;
-}
+h1{font-size: 2rem;}
+h2{font-size: 1.64rem;}
+h3{font-size: 1.12rem;}
 
 .ejercicio{
   margin-bottom: 2rem;
@@ -24,4 +24,5 @@ h1{
 
 .resultado{
   margin-bottom: 1rem;
+  font-size: .88rem;
 }
